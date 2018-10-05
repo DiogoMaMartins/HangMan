@@ -1,0 +1,149 @@
+body{
+	background-color:black;
+}
+.jogo{
+      display:inline-block;
+  }
+  #container{
+   padding:10px 30px;
+   position:absolute;
+  }
+  #nav{
+      position:absolute;
+      width:100px;
+      height:30px;
+       font-size:20px;
+      right:20px;
+   }
+  #jogo{
+      margin:150px 0px 0px 150px;
+   position:absolute;
+  }
+  #jogar{
+      display:inline-block;
+   margin:200px 0px 0px 250px;
+  }
+  #jogadas{
+      width:300px;
+   margin-left:40px;
+   padding-left:0px;
+  }
+  #bt{
+      margin-left:50px;
+  }
+     .letra, .ler{
+      font-size:20px;
+   padding-left:10px;
+   margin-left:10px;
+   border:none;
+   border-bottom:1px solid #fff;
+   background-color:#fff;
+   outline:none;   
+   width:35px;
+  }
+#d1{
+	height:100px;
+	width:100px;
+	background-color:white;
+	border-radius:50%;
+	left:90px;
+	top:20px;
+	position:absolute;
+
+
+}
+#d2{
+	height:200px;
+	width:20px;
+	background-color:white;
+	top:110px;
+    left:130px;
+    position:absolute;
+
+}
+#d4{
+	height:100px;
+	width:20px;
+	background-color:white;
+	top:160px;
+	left:140px;
+	position:fixed;
+
+}
+#d3{
+	height:100px;
+	width:20px;
+	background-color:white;
+	top:170px;
+	left:140px;
+	position:fixed;
+
+}
+#d5{
+	height:200px;
+	width:20px;
+	background-color:white;
+	left:140px;
+	position:fixed;
+	bottom:120px;
+
+}
+#d6{
+	height:200px;
+	width:20px;
+	background-color:white;
+	left:140px;
+	position:fixed;
+	bottom:120px;
+}
+.ladoE{
+transform: rotate(30deg);
+transform-origin: left top 0;
+}
+.ladoD{
+	transform: rotate(-30deg);
+transform-origin: left top 0;
+}
+#campo{
+	font-size:40px;
+	width:200px;
+	height:60px;
+}
+#guess{
+	left:500px;
+	position:absolute;
+	color:white;
+}
+h1{
+	color:white;
+	text-align: center;
+}
+p{
+	font-weight:bold;
+	font-size:20px;
+
+}
+#tabelaComPalavras{
+	bottom:200px;
+	position:absolute;
+	left:500px;
+	padding:10px;
+
+}
+#tabelaLetrasErradas{
+    width:400px;
+	height:150px;
+	background-color:white;
+	left:800px;
+	bottom:20px;
+	position:absolute;	
+
+}
+.letras{
+	font-size:50px;
+	padding:20px;
+	color:white;
+}
+#guess{
+   top:200px;
+}
