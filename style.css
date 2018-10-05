@@ -85,7 +85,7 @@ body{
 	background-color:white;
 	left:140px;
 	position:fixed;
-	bottom:120px;
+	top:300px;
 
 }
 #d6{
@@ -94,7 +94,7 @@ body{
 	background-color:white;
 	left:140px;
 	position:fixed;
-	bottom:120px;
+	top:300px;
 }
 .ladoE{
 transform: rotate(30deg);
